@@ -29,6 +29,6 @@ include_directories(${PROJECT_SOURCE_DIR}/src/RRG
 add_definitions(-Wall -g -O3)
 
 add_subdirectory(RRG)
-#add_subdirectory(RRGViz)
-#add_subdirectory(RRGVizDemo)
+add_subdirectory(RRGViz)
+add_subdirectory(RRGVizDemo)
 
